@@ -1,0 +1,31 @@
+.Box{
+    position:absolute;
+    left:25%;
+    margin-left:7%;
+    margin-top: 3%;
+    margin-right:30%;
+    margin-bottom:16%;
+    width:10%;
+    align-content: center;
+    background-color:rgb(206, 195, 195);
+    padding-left:10%;
+    padding-top:5%;
+    padding-right:10%;
+    padding-bottom:10%;
+    border-radius:7px;
+    
+}
+.btn1{
+    margin-left: 23%;
+}
+.boxl{
+    margin-left:28%;
+    margin-top:3%;
+    
+}
+a{
+    text-decoration: underline;
+    font-size:25px;
+    font-weight:lighter;
+    text-emphasis-color:grey;
+}

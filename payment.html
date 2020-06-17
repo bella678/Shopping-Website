@@ -1,0 +1,38 @@
+<html>
+<head>
+<style type="text/css">
+.Box{
+width:20%;
+height:70%;
+margin-left:36%;
+border:5px;
+padding-left:5%;
+margin-top:5%;
+padding-top:3%;
+background-color:#2A9BAC;
+border-radius:7px;
+}
+#btn
+{
+margin-left:9%;
+}
+</style>
+</head>
+<body>
+<div class="Box">
+<H3><B>PAYMENT<Br> DETAILS</B></H3>
+<form method="POST" action="Payment.php">
+FirstName:<br>
+<input type="text" id="fname" name="fname"><br>
+LastName:<br>
+<input type="text" id="lname" name="lname"><br>
+Email Address:<br>
+<input type="email" id="email" name="email"><br>
+Address:<br>
+<TextArea rows=5 col=25 id="adder" name="addr"></TextArea><br>
+<br>
+<button id="btn" name="btn">Proceed To Pay</button>
+</form>
+</div>
+</body>
+</html>
